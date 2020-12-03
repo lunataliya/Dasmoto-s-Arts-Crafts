@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'Helvetica';
+  src: url('../fonts/HelveticaNeueL-Bold.woff2') format('woff2'),
+    url('../fonts/HelveticaNeueL-Bold.woff') format('woff');
+  font-display: swap;
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url('../fonts/HelveticaNeue-Medium.woff2') format('woff2'),
+    url('../fonts/HelveticaNeue-Medium.woff') format('woff');
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: 'Helvetica', sans-serif;
+  background: white;
+  margin: 30px;
+}
+
+
+h1 {
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  background-image: url(../img/pattern.jpeg); /* The image used */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+h2 {
+  padding-left: 30px;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+.bg-brushes {
+  background-color: mediumspringgreen;
+}
+
+.bg-frames {
+  background-color: lightcoral;
+}
+
+.bg-paint {
+  background-color: skyblue;
+}
+
+img {
+  width: 250px;
+  margin: 25px auto;
+
+}
+
+p {
+  margin: 25px 0;
+}
+
+span {
+  font-weight: bold;
+  color: blue;
+}
